@@ -1,0 +1,75 @@
+setup :
+git --version
+git init #1 BIG4
+git status #2 BIG4
+git config --global user.name "devanshsharma969"
+git config --global user.email "devanshsharma969@gmail.com"
+
+git add index.css #3 BIG4
+git commit -m "inital website ready" #4 BIG4
+
+git log 
+git log --oneline
+
+git restore --staged index.css
+
+---------------SINGLE USER WORKFLOW ENDED -------------------------------------
+ignoring files:
+in .gitignore file add files to be ignored
+file: filename
+folder: folder/
+
+git doesn't track empty folders
+to do that .gitkeep file must be made inside that folder
+>>
+
+---------------BRANCHING -------------------------------------
+git branch ui
+git branch
+git switch ui
+git status
+git add . 
+git commit -m "ui branch"
+git switch master
+git branch -d ui
+git merge ui
+
+---------------MERGE CONFLICTS -------------------------------------
+git switch -c ui # creates and switches
+solve merging conflict in file manually
+git add .
+git commit -m "merging"
+
+---------------	STASHING -------------------------------------
+working tree cleanup temporarily , all changes gets stashed , you do your 
+emergerncy commit then restore and resume work
+
+git stash
+git stash list
+git status
+git add .
+git commit
+git stash pop
+git stash apply
+
+branching best practices:
+->one feature = one branch
+->never develop on main
+->delete merged branch
+->use meaningful branch names
+->keep branch short lived
+
+---------------	TAGGING -------------------------------------
+ANNOTATED TAGS tag with message , LIGHTWEIGHT TAGS only tag
+TO MARK RELEASE VERSIONS
+git tag
+git tag -a v1.0 -m " release 1" annotated tag
+git tag
+git log
+
+git tag v1.1 lightweight tag
+
+---------------	REBASE -------------------------------------
+to avoid merge commits
+
+

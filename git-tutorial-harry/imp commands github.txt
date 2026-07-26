@@ -1,0 +1,11 @@
+linking of git and github
+sign in with GitHub
+create new repository
+goto setting and ssh , generate ssh key add new ssh key article follow
+add the key generated into GitHub
+git clone ssh url of repo
+
+
+git config --global init.defaultBranch main
+
+COMMIT MESSAGES MUST BE IN PRESENT TENSE
