@@ -1,0 +1,39 @@
+Stage 1:Python
+->Core Python
+->Threads
+->OOPS
+->List Comprehension
+->Collection Framework-default deque
+->String Manipulation
+------>make 20 Projects on Python
+
+Stage 2: WebDev
+->api , rest , get post put patch delete
+->http https
+->server client
+->json cookies handshake
+->HTML CSS
+->SQL
+
+Stage 3: DJANGO
+->mvt
+->middle ware
+->architrecture
+->orm
+->auth
+->jwt
+->cookies
+
+Stage 4:Deployment
+->docker
+->deploy
+->celery
+->drf
+->kafka
+->redis
+->elastic
+->rabbit mq
+
+------>make 20 projects on Django
+
+

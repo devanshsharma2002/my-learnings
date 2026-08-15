@@ -1,4 +1,4 @@
-setup :
+ setup :
 git --version
 git init #1 BIG4
 git status #2 BIG4
