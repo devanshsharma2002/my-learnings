@@ -1,0 +1,40 @@
+Project Setup :
+
+create a virtual enviroment -> python3 -m venv venv
+activate -> scripts\activate
+install django -> pip install django
+
+Project Structure :
+django-admin startproject .
+
+3 main files:
+1.manage.py -> tv remote of django
+start server, start database etc 
+dont make changes inside the file
+
+---->python manage.py runserver
+
+2.settings.py -> rulebook  , important choices for the project 
+
+3.urls.py -> all urls of pages
+
+dJANGO APP
+departments of the hospital 
+python manage.py startapp invoices
+
+views.py-> iske andar hum bohot sara code likhne wale hai 
+worker jo hamara kaam karne wala hai
+
+models.py-> models of database
+shape of data base, name age gender bloodgroup
+
+migration.py-> records of changes 
+like adding new column to db like haemoglkobin
+
+test.py->  test cases for APP
+
+STARTAPP COMMAND -> ADDING A DEPT TOP YOUR hospital
+invoices dept 
+
+admin panel -> yoursite/admin
+

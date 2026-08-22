@@ -1,0 +1,30 @@
+URLS and VIEWS
+
+urls loves views . they are  heart of project
+
+views->
+urls-> contains list of urls in our app
+board of URLS
+path function gives path to the url
+#path('address/',view_function,name='nickname')
+
+after learning this routing will work correctly:
+-> routing with path function
+-> fuction and class based views-
+-> request reponse cycle
+
+url takes views to navigate . 
+ customer- user
+ waiter - url system of django
+ chef- views
+
+view will take input as request and give an output as response
+in views:
+from django.http import HttpResponse
+def home(request):
+    return HttpResponse("homepage")
+
+if request.method=="POST":
+    DO something
+ GET -> request , menu reading
+ Post-> , order
